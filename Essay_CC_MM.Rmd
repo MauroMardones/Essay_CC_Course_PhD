@@ -1,0 +1,51 @@
+---
+# setspace: doublespacing
+output:
+  pdf_document:
+      includes:
+        before_body: titulo.sty
+      keep_tex: yes
+      number_sections: no
+      toc: no
+title: |
+  ![](logoUMAG.jpg){width=3cm} 
+# linestretch: 2
+bibliography: Essay_ref.bib
+csl: apa.csl
+link-citations: yes
+linkcolor: blue
+geometry: margin=2cm
+indent: true # indent new paragraphs, instead of leaving whitespace
+---
+
+```{=tex}
+\fontsize{12}{26}
+\selectfont{}
+```
+```{r setup, eval=FALSE, echo = FALSE, warning = FALSE, message = FALSE}
+knitr::opts_chunk$set(collapse = TRUE, comment = "  ", fig.align = 'center', cache=FALSE)
+library(knitr)
+library(tidyverse)
+```
+
+## INTRODUCCION
+
+actualmente existen variados estudios que tratan de abordar las respuestas de las especies a forzantes climáticas en un escenario de cambios [@Trathan2017; @Plaganyi2014; @Lucey2021; @Jacquet2016a]. Existen multiples evidencias que demuestran y magnifican el impacto del Camblìo Climático en distintos aspectos en la poblaciones de especies marinas, ya sean estas; mamóferos [cita], peces [cita], moluscos [cita] y diversos organismos marinos que constituyen comunidades ecologicas en distintos ecosistemas del planeta. Algunos autores proponen que los impactos del cambio climatico, a traves de un calentamiento de las masas de agua, gatillarìa cambios en los patrones de distribución espacial de los organismos marinos, incluso, haciendolos migrar hacia altas latitudes. En este sentido, es necesario preguntar como impactaran las condiciones oceanograficas cambiantes en ecosistemas de altas latitudes, y com responderan las especies marinas que allí habitan, o bien las que llegaran a estas latitudes. En ese sentido, regiones polares denes ser analizadas a la luz de la evidencia cientifica en este aspecto, identificando los cambios ocurridos, asi como también, proyectar los impoactos del cambio climatico en estas poblaciones [@Pitman2018a] y [@Abrams2016a]
+
+Este ensayo tiene como objetivo identificar que cambios se producen en el ambiente marino a causa del cambio climático recirente, los cambios de distribución de las poblaciones marinas, y por último, tambien identificar escenarios futuros y su implcancia en la sociedad humana [@Rijnsdorp2009; @Melnychuk2014].
+
+\pagebreak
+
+## CUERPO
+
+Antecedentes científicos que confirmen estos impactos
+
+\pagebreak
+
+## DISCUSION
+
+Opinion personal respecto a los anteceentes presentados y el prpblema formulado
+
+\pagebreak
+
+## REFERENCIAS
